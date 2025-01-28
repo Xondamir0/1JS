@@ -1,0 +1,34 @@
+ /* :root {
+    --body-orqa-rangi:red;
+    --text-orqa-rangi:#FFF;
+} */
+/* body{
+    background-color: var(--body-orqa-rangi);
+}
+
+p{
+    color:var(--text-rangi);
+}
+
+.bot{
+    background-color: yellow;
+    color: red;
+}  */
+
+:root {
+    --bg-color: #000000;
+    --text-color: #000000;
+    --button-bg-color: #FB982F;
+    --button-text-color: #000000;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease;
+}
+
+button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+}
